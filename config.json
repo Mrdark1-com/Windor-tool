@@ -1,0 +1,111 @@
+{
+    "threads": 1,
+    "threading": {
+        "generator": 1,
+        "proxy_checker": 5,
+        "checker": 3,
+        "humanizer": 2,
+        "phone_verify": 2
+    },
+    "censor": true,
+    "9captcha": {
+        "api_key": "",
+        "extension_solver": true,
+        "req_solver": false
+    },
+    "mail_services": {
+        "duckmail": {
+            "enabled": true,
+            "password": "eljoe@ancient@ever@egypt"
+        },
+        "cybertemp": {
+            "enabled": false,
+            "api_key": "",
+            "domains": [
+                "sexymeowers.site",
+                "xpromail.xyz",
+                "securitybot.online"
+            ]
+        },
+        "tempmail_lol": {
+            "enabled": false
+        },
+        "hotmail007": {
+            "enabled": false,
+            "client_key": ""
+        },
+        "lution": {
+            "enabled": false,
+            "api_key": "",
+            "mailcode": "outlook2"
+        },
+        "zeus": {
+            "enabled": false,
+            "api_key": "",
+            "mailcode": "Hotmail_Trusted"
+        },
+        "draxono": {
+            "enabled": false,
+            "api_key": ""
+        },
+        "mailcow": {
+            "enabled": false,
+            "api_key": "",
+            "host": "",
+            "domain": ""
+        }
+    },
+    "verification": {
+        "enabled": true,
+        "mode": "email",
+        "mail_timeout": 150,
+        "phone": {
+            "enabled": false,
+            "provider": "herosms",
+            "herosms": {
+                "api_key": "",
+                "service": "ds",
+                "country": 15,
+                "operator": null,
+                "max_price": 0.5,
+                "fixed_price": false,
+                "sms_timeout": 150,
+                "poll_interval": 3
+            }
+        }
+    },
+    "humanizer": {
+        "enabled": false,
+        "retries": 3,
+        "max_threads": 1,
+        "avatar_dimension": 256,
+        "avatar": false,
+        "pronouns": false,
+        "bio": false,
+        "display_name": false,
+        "banner": false,
+        "hypesquad": false
+    },
+    "auth_joiner": {
+        "bot": {
+            "id": "",
+            "secret": "",
+            "token": ""
+        },
+        "web": {
+            "url": "http://localhost:3001"
+        },
+        "data": {
+            "guildId": ""
+        }
+    },
+    "cloudflare_warp": {
+        "enabled": false
+    },
+    "mullvad_vpn": {
+        "enabled": false,
+        "location": "any"
+    },
+    "license_code": "ELJOE-D9346-20A8B-B49A7-9520F",
+    "license_token": "bfb00dc13d8cff9a04bc0af53b0dfd2c6487e7e992a4ce64bc6e4029f83fef9b"
+}
